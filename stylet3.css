@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 230px;
+}
+
+.profile{
+    border-radius: 50%;
+    border: 3px solid purple; 
+    width: 50%;
+    height: 160px;
+    margin: 20px;
+    
+}
+
+.name{
+    text-align: center;
+    color: purple;
+}
+i{
+    color: purple;
+}
+.card1{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card2{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card3{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.intro {
+    padding: 10px;
+    text-align: left;
+    margin: 5px 0;
+}
+button{
+    padding: 10px 35px;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+.read{
+    color: purple;
+    background-color: white;
+    border: 3px solid purple;
+    
+}
+
+.subs{
+    color: white;
+    background-color: purple;
+}

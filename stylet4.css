@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(64, 0, 128);
+    margin: 100px;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+h1{
+    background-color: rgb(6, 6, 44);
+    color: white;
+    text-align: center;
+    margin: 15px 15px 25px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+p{
+    padding: 0 10px;
+    text-align: left;
+    margin: 0 10px;
+}
+mark{
+    background-color: rgb(226, 80, 36);
+}
+button{
+    text-align: center;
+    background-color: rgb(6, 6, 44);
+    color: white;
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}

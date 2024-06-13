@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    padding-top: 100px;
+    margin: 0 150px;
+}
+.card1{
+    display: inline-block;
+    width: 210px;
+    height: 450px;
+    background-color: white;
+    margin: 0 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card2{
+    display: inline-block;
+    width: 210px;
+    height: 450px;
+    background-color: white;
+    margin: 0 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+}.card3{
+    display: inline-block;
+    width: 210px;
+    height: 450px;
+    background-color: white;
+    margin: 0 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+}.card4{
+    display: inline-block;
+    width: 210px;
+    height: 450px;
+    background-color: white;
+    margin: 0 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 250px;
+} 
+p {
+    padding: 10px;
+    text-align: left;
+    margin: 5px 0;
+}
+.minmax{
+    background-color: white;
+    border: 1px solid silver;
+    cursor: pointer;
+    padding: 5px;
+}
+.sebet{
+    margin-bottom: 30px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    background-color: red;
+    color: white;
+    text-align: left;
+}
