@@ -4,5 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('/img/game1.jpeg');
+    background-image: url('img/bg_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
