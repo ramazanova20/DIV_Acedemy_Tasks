@@ -1,19 +1,36 @@
+/* bu hisse bizim mobil versiya azdigimiz yerdir!!! */
+
+
 .container {
     max-width: 940px;
     margin: auto;
 }
+
 header {
     padding: 27px 0 24px 0;
     background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
     text-align: center;
+    height: 350px;
 }
-#menu { padding: 22px 0 0 0; float: right;}
-#menu li {
+
+#logo img {
+    width: 150px;
+}
+
+#menu {
+    padding: 22px 0 0 0;
     float: right;
+    /* background-color: red; */
+    width: 100%;
+}
+
+#menu li {
+    /* float: right; */
     font: .7em Tahoma, sans-serif;
     color: #b7b7b7;
     padding: 0 11px 8px 11px;
 }
+
 #menu li a {
     display: block;
     font: bold .9rem Georgia, serif;
@@ -21,56 +38,71 @@ header {
     color: #666;
 }
 
-main{
-    background:url('img/mainbg.jpg') repeat-x;
+main {
+    background: url('img/mainbg.jpg') repeat-x;
     padding: 22px 0 0 0;
 }
+
 #slider {
     height: 340px;
     border: 1px solid #c6c6c6;
     border-radius: 7px;
     background: url('img/slide1.jpg') center;
 }
+
 h1 {
     font: bold 1.5em 'Georgia';
     color: #000;
     text-align: center;
     padding: 1em;
 }
+
 h2 {
     font: 1.3em Georgia;
     color: #11719e;
 }
+
 h6 {
     font: .8em Helvetica;
     color: #8c8c8c;
 }
+
 h3 {
     font: 1.1em Georgia;
     padding: 0 0 6px 0;
     color: #444;
     border-bottom: 1px dashed #d3d3d3;
 }
+
 hr {
     border: none;
     height: 1px;
     background: #e5e5e5;
 }
-.row { padding: 24px 0}
-.col3 { padding: 12px }
-article img { 
-    width: 100%; 
+
+.row {
+    padding: 24px 0
+}
+
+.col3 {
+    padding: 12px
+}
+
+article img {
+    width: 100%;
     border: 1px solid #e1e1e1;
     border-radius: 4px;
     padding: 6px;
     background: #f3f3f3;
     margin: 15px 0;
 }
+
 article p {
     font: .8em/1.5 Helvetica;
     color: #3e3e3e;
     text-align: justify;
 }
+
 .btn {
     display: inline-block;
     text-align: left;
@@ -82,92 +114,134 @@ article p {
     padding: 8px 20px;
     margin: 20px 0 0 0;
 }
-.btn:hover { box-shadow: 0 0 5px #aaa }
-.btn span { float: right}
+
+.btn:hover {
+    box-shadow: 0 0 5px #aaa
+}
+
+.btn span {
+    float: right
+}
+
 .btn1 {
     border-color: #d8d8d8;
     color: #016999;
     background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
 }
+
 .btn2 {
     border-color: #004a80;
     color: #fff;
     background: linear-gradient(to right, #31669b, #3d76b4, #306193);
 }
-p{
+
+p {
     margin: 15px 0;
     font: .8em/1.5 Helvetica;
     color: #3e3e3e;
     text-align: justify;
 }
-i{
+
+i {
     font-size: 50px;
-    margin:0 5px 45px 0;
+    margin: 0 5px 45px 0;
 }
-.bgOrange{
+
+.bgOrange {
     color: orangered;
 }
-.bgBlue{
+
+.bgBlue {
     color: #016999;
 }
-.bgBlue1{
+
+.bgBlue1 {
     color: #3d76b4;
 }
-.bgRed{
+
+.bgRed {
     color: red;
 }
-input{
+
+input {
     padding: 10px 80px 10px 10px;
-    border:2px solid #aaa;
+    border: 2px solid #aaa;
     border-radius: 3px;
     margin: 10px 0;
 }
-h4{
+
+h4 {
     padding: 0 0 6px 0;
     border-bottom: 1px dashed #d3d3d3;
 }
-textarea{
+
+textarea {
     padding: 10px;
     margin: 10px 0;
-    border:2px solid #aaa;
+    border: 2px solid #aaa;
     border-radius: 3px;
 }
-img{
+
+img {
     border: 5px solid #e1e1e1;
     border-radius: 4px;
-    
+    width: 50px;
+    height: 50px;
+
 }
-.mainImg{
-    
+
+.mainImg {
+
     clear: both;
     border-bottom: 1px dashed #d3d3d3;
     padding: 10px;
     display: flex;
 }
-.last{
+
+.last {
     margin: 10px;
 }
+
 footer {
     height: 183px;
     background: #333;
     border-top: 10px solid #4c4c4c;
 }
-.card p{
+
+.card p {
     font: .8em/1.5 Helvetica;
     color: #8b8888;
 }
- .left{
+
+.left {
     float: left;
- }
- .right{
+}
+
+.right {
     float: right;
- }
+}
 
 /* Desktop version */
 @media only screen and (min-width: 768px) {
-    header { text-align: initial; }
-    #menu { float: right }
-    #menu li { 
+    /* Ba burdan sonrasi yalnizca komputer versiyasinda gorsenecek!!!!! */
+    header {
+        height: 138px;
+    }
+
+    header nav {
+        text-align: initial;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        padding-top: 0;
+        width: initial;
+        /* float: right; */
+    }
+
+    #menu li {
         display: inline-block;
         border-left: 1px dotted #d6d6d6;
     }
@@ -177,6 +251,7 @@ footer {
         content: '';
         clear: both;
     }
+
     .col3 {
         width: 33.33%;
         float: left;
